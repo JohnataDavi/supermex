@@ -136,12 +136,29 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas1' id='marcas1' class='form-control selectpicker' title='Selecione'
-                                        data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <!--<div class="custom-control custom-checkbox">
+                                    <input name="1" type="checkbox" class="custom-control-input" id="customCheck1" onclick="ativarCheck(this.name)">
+                                    <label class="custom-control-label" for="customCheck1"><h6>Opção mais barata</h6></label>
+                                </div>-->
+                                <div class="custom-control custom-radio">
+                                    <input name="1" type="radio" id="customRadio1" class="custom-control-input"
+                                           onclick="showSelect(false, this.name)">
+                                    <label class="custom-control-label" for="customRadio1">Opção mais barata</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input name="1" type="radio" id="customRadio1-2" class="custom-control-input"
+                                           onclick="showSelect(true, this.name)">
+                                    <label class="custom-control-label" for="customRadio1-2">Selecione</label>
+                                </div>
+                                <div id="myDIV1">
+                                    <select name='marcas1' id='marcas1' class='form-control selectpicker'
+                                            title='Selecione'
+                                            multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -160,12 +177,25 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas2' id='marcas2' class='form-control selectpicker' title='Selecione'
-                                        data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class="custom-control custom-radio">
+                                    <input name="2" type="radio" id="customRadio2" class="custom-control-input"
+                                           onclick="showSelect(false, this.name)">
+                                    <label class="custom-control-label" for="customRadio2">Opção mais barata</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input name="2" type="radio" id="customRadio2-2" class="custom-control-input"
+                                           onclick="showSelect(true, this.name)">
+                                    <label class="custom-control-label" for="customRadio2-2">Selecione</label>
+                                </div>
+                                <div id="myDIV2">
+                                    <select name='marcas2' id='marcas2' class='form-control selectpicker'
+                                            title='Selecione'
+                                            multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -184,12 +214,25 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas3' id='marcas3' class='form-control selectpicker' title='Selecione'
-                                        data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='3' type='radio' id='customRadio3' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio3'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='3' type='radio' id='customRadio3-2' class='custom-control-input' +
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio3-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV3'>
+                                    <select name='marcas3' id='marcas3' class='form-control selectpicker'
+                                            title='Selecione'
+                                            multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -211,12 +254,25 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas4' id='marcas4' class='form-control selectpicker' title='Selecione'
-                                        data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='4' type='radio' id='customRadio4' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio4'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='4' type='radio' id='customRadio4-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio4-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV4'>
+                                    <select name='marcas4' id='marcas4' class='form-control selectpicker'
+                                            title='Selecione'
+                                            multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -235,12 +291,25 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas5' id='marcas5' class='form-control selectpicker' title='Selecione'
-                                        data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='5' type='radio' id='customRadio5' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio5'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='5' type='radio' id='customRadio5-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio5-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV5'>
+                                    <select name='marcas5' id='marcas5' class='form-control selectpicker'
+                                            title='Selecione'
+                                            multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -259,12 +328,25 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas6' id='marcas6' class='form-control selectpicker' title='Selecione'
-                                        data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='6' type='radio' id='customRadio6' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio6'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='6' type='radio' id='customRadio6-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio6-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV6'>
+                                    <select name='marcas6' id='marcas6' class='form-control selectpicker'
+                                            title='Selecione'
+                                            multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -286,12 +368,25 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas7' id='marcas7' class='form-control selectpicker' title='Selecione'
-                                        data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='7' type='radio' id='customRadio7' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio7'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='7' type='radio' id='customRadio7-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio7-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV7'>
+                                    <select name='marcas7' id='marcas7' class='form-control selectpicker'
+                                            title='Selecione'
+                                            multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -310,12 +405,25 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas8' id='marcas8' class='form-control selectpicker' title='Selecione'
-                                        data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='8' type='radio' id='customRadio8' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio8'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='8' type='radio' id='customRadio8-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio8-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV8'>
+                                    <select name='marcas8' id='marcas8' class='form-control selectpicker'
+                                            title='Selecione'
+                                            multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -334,12 +442,25 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas9' id='marcas9' class='form-control selectpicker' title='Selecione'
-                                        data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='9' type='radio' id='customRadio9' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio9'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='9' type='radio' id='customRadio9-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio9-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV9'>
+                                    <select name='marcas9' id='marcas9' class='form-control selectpicker'
+                                            title='Selecione'
+                                            multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -361,12 +482,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas10' id='marcas10' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='10' type='radio' id='customRadio10' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio10'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='10' type='radio' id='customRadio10-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio10-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV10'>
+                                    <select name='marcas10' id='marcas10' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -385,12 +518,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas11' id='marcas11' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='11' type='radio' id='customRadio11' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio11'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='11' type='radio' id='customRadio11-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio11-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV11'>
+                                    <select name='marcas11' id='marcas11' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -409,12 +554,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas12' id='marcas12' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='12' type='radio' id='customRadio12' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio12'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='12' type='radio' id='customRadio12-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio12-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV12'>
+                                    <select name='marcas12' id='marcas12' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -436,12 +593,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas13' id='marcas13' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='13' type='radio' id='customRadio13' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio13'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='13' type='radio' id='customRadio13-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio13-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV13'>
+                                    <select name='marcas13' id='marcas13' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -460,12 +629,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas14' id='marcas14' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='14' type='radio' id='customRadio14' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio14'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='14' type='radio' id='customRadio14-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio14-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV14'>
+                                    <select name='marcas14' id='marcas14' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
 
@@ -481,7 +662,7 @@ shuffle($bk);
 
                     <br>
                     <div class='wrap-input100'>
-                        <textarea id='outros0' name='outros0' class='input100' placeholder='Outros:'></textarea>
+                        <textarea id='outros2' name='outros2' class='input100' placeholder='Outros:'></textarea>
                         <span class='focus-input100-1'></span>
                         <span class='focus-input100-2'></span>
                     </div>
@@ -507,12 +688,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas15' id='marcas15' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='15' type='radio' id='customRadio15' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio15'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='15' type='radio' id='customRadio15-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio15-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV15'>
+                                    <select name='marcas15' id='marcas15' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -531,12 +724,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas16' id='marcas16' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='16' type='radio' id='customRadio16' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio16'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='16' type='radio' id='customRadio16-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio16-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV16'>
+                                    <select name='marcas16' id='marcas16' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -555,12 +760,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas17' id='marcas17' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='17' type='radio' id='customRadio17' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio17'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='17' type='radio' id='customRadio17-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio17-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV17'>
+                                    <select name='marcas17' id='marcas17' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -582,12 +799,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas18' id='marcas18' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='18' type='radio' id='customRadio18' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio18'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='18' type='radio' id='customRadio18-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio18-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV18'>
+                                    <select name='marcas18' id='marcas18' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -606,12 +835,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas19' id='marcas19' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='19' type='radio' id='customRadio19' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio19'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='19' type='radio' id='customRadio19-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio19-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV19'>
+                                    <select name='marcas19' id='marcas19' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
 
@@ -631,12 +872,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas20' id='marcas20' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='20' type='radio' id='customRadio20' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio20'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='20' type='radio' id='customRadio20-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio20-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV20'>
+                                    <select name='marcas20' id='marcas20' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -658,12 +911,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas21' id='marcas21' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='21' type='radio' id='customRadio21' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio21'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='21' type='radio' id='customRadio21-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio21-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV21'>
+                                    <select name='marcas21' id='marcas21' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -682,12 +947,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas22' id='marcas22' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='22' type='radio' id='customRadio22' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio22'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='22' type='radio' id='customRadio22-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio22-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV22'>
+                                    <select name='marcas22' id='marcas22' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -706,12 +983,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas23' id='marcas23' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='23' type='radio' id='customRadio23' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio23'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='23' type='radio' id='customRadio23-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio23-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV23'>
+                                    <select name='marcas23' id='marcas23' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -733,12 +1022,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas24' id='marcas24' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='24' type='radio' id='customRadio24' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio24'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='24' type='radio' id='customRadio24-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio24-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV24'>
+                                    <select name='marcas24' id='marcas24' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -757,12 +1058,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas25' id='marcas25' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='25' type='radio' id='customRadio25' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio25'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='25' type='radio' id='customRadio25-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio25-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV25'>
+                                    <select name='marcas25' id='marcas25' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='mycard card' style='width: 18rem;'>
@@ -776,7 +1089,7 @@ shuffle($bk);
                     </div>
                     <br>
                     <div class='wrap-input100'>
-                        <textarea id='outros1' name='outros1' class='input100' placeholder='Outros:'></textarea>
+                        <textarea id='outros2' name='outros2' class='input100' placeholder='Outros:'></textarea>
                         <span class='focus-input100-1'></span>
                         <span class='focus-input100-2'></span>
                     </div>
@@ -802,12 +1115,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas26' id='marcas26' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='26' type='radio' id='customRadio26' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio26'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='26' type='radio' id='customRadio26-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio26-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV26'>
+                                    <select name='marcas26' id='marcas26' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -827,12 +1152,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas27' id='marcas27' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='27' type='radio' id='customRadio27' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio27'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='27' type='radio' id='customRadio27-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio27-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV27'>
+                                    <select name='marcas27' id='marcas27' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -851,12 +1188,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas28' id='marcas28' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='28' type='radio' id='customRadio28' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio28'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='28' type='radio' id='customRadio28-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio28-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV28'>
+                                    <select name='marcas28' id='marcas28' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -879,12 +1228,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas29' id='marcas29' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='29' type='radio' id='customRadio29' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio29'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='29' type='radio' id='customRadio29-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio29-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV29'>
+                                    <select name='marcas29' id='marcas29' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -903,12 +1264,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas30' id='marcas30' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='30' type='radio' id='customRadio30' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio30'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='30' type='radio' id='customRadio30-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio30-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV30'>
+                                    <select name='marcas30' id='marcas30' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -927,12 +1300,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas31' id='marcas31' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='31' type='radio' id='customRadio31' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio31'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='31' type='radio' id='customRadio31-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio31-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV31'>
+                                    <select name='marcas31' id='marcas31' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -954,12 +1339,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas32' id='marcas32' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='32' type='radio' id='customRadio32' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio32'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='32' type='radio' id='customRadio32-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio32-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV32'>
+                                    <select name='marcas32' id='marcas32' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -978,12 +1375,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas33' id='marcas33' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='33' type='radio' id='customRadio33' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio33'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='33' type='radio' id='customRadio33-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio33-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV33'>
+                                    <select name='marcas33' id='marcas33' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -1002,18 +1411,30 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas34' id='marcas34' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='34' type='radio' id='customRadio34' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio34'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='34' type='radio' id='customRadio34-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio34-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV34'>
+                                    <select name='marcas34' id='marcas34' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <br>
                     <div class='wrap-input100'>
-                        <textarea id='outros2' name='outros2' class='input100' placeholder='Outros:'></textarea>
+                        <textarea id='outros3' name='outros3' class='input100' placeholder='Outros:'></textarea>
                         <span class='focus-input100-1'></span>
                         <span class='focus-input100-2'></span>
                     </div>
@@ -1039,12 +1460,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas35' id='marcas35' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='35' type='radio' id='customRadio35' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio35'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='35' type='radio' id='customRadio35-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio35-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV35'>
+                                    <select name='marcas35' id='marcas35' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -1063,12 +1496,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas36' id='marcas36' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='36' type='radio' id='customRadio36' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio36'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='36' type='radio' id='customRadio36-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio36-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV36'>
+                                    <select name='marcas36' id='marcas36' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -1087,12 +1532,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas37' id='marcas37' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='37' type='radio' id='customRadio37' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio37'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='37' type='radio' id='customRadio37-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio37-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV37'>
+                                    <select name='marcas37' id='marcas37' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1114,12 +1571,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas38' id='marcas38' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='38' type='radio' id='customRadio38' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio38'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='38' type='radio' id='customRadio38-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio38-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV38'>
+                                    <select name='marcas38' id='marcas38' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='card' style='width: 18rem;'>
@@ -1138,12 +1607,24 @@ shuffle($bk);
                                         <p class='card-text'><small class='text-muted'>...</small></p>
                                     </label>
                                 </div>
-                                <select name='marcas39' id='marcas39' class='form-control selectpicker'
-                                        title='Selecione' data-live-search='true' multiple>
-                                    <option value='marca1'>Marca 1</option>
-                                    <option value='marca2'>Marca 2</option>
-                                    <option value='marca3'>Marca 3</option>
-                                </select>
+                                <div class='custom-control custom-radio'>
+                                    <input name='39' type='radio' id='customRadio39' class='custom-control-input'
+                                           onclick='showSelect(false, this.name)'>
+                                    <label class='custom-control-label' for='customRadio39'>Opção mais barata</label>
+                                </div>
+                                <div class='custom-control custom-radio'>
+                                    <input name='39' type='radio' id='customRadio39-2' class='custom-control-input'
+                                           onclick='showSelect(true, this.name)'>
+                                    <label class='custom-control-label' for='customRadio39-2'>Selecione</label>
+                                </div>
+                                <div id='myDIV39'>
+                                    <select name='marcas39' id='marcas39' class='form-control selectpicker'
+                                            title='Selecione' multiple>
+                                        <option value='marca1'>Marca 1</option>
+                                        <option value='marca2'>Marca 2</option>
+                                        <option value='marca3'>Marca 3</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div class='mycard card' style='width: 18rem;'>
@@ -1157,7 +1638,7 @@ shuffle($bk);
                     </div>
                     <br>
                     <div class='wrap-input100'>
-                        <textarea id='outros3' name='outros3' class='input100' placeholder='Outros:'></textarea>
+                        <textarea id='outros4' name='outros4' class='input100' placeholder='Outros:'></textarea>
                         <span class='focus-input100-1'></span>
                         <span class='focus-input100-2'></span>
                     </div>
@@ -1165,7 +1646,7 @@ shuffle($bk);
 
                 <div id="tab6" class="tab">
                     <div class="wrap-input100 validate-input" data-validate="A mensagem é obrigatória">
-                        <textarea id="" name="" class="input100" name="message"
+                        <textarea id="outros5" name="outros5" class="input100" name="message"
                                   placeholder="Favor informar outros produtos que deseja adicionar à Lista de Compras"></textarea>
                         <span class="focus-input100-1"></span>
                         <span class="focus-input100-2"></span>
@@ -1245,6 +1726,14 @@ shuffle($bk);
 <script>
     $(document).ready(function () {
         $('.selectpicker').selectpicker();
+
+        for (var i = 1; i < 44; i++) {
+            var x = document.getElementById("myDIV" + i);
+            x.style.display = "none";
+
+        }
+
+
     });
 </script>
 </body>
