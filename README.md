@@ -1,1 +1,1 @@
-# supermex
+# Supermex shopping list
